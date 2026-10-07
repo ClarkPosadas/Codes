@@ -1,7 +1,6 @@
 import mysql.connector
 from mysql.connector import Error
 
-
 def connect():
     try:
         mydb = mysql.connector.connect(
@@ -220,4 +219,4 @@ def viewrecords(mydb):
         print("Error: ", e)
     finally:
         mycursor.close()
-#e\testsss
+#testing my shit
